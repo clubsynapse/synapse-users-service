@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [[ "$NODE_ENV" == "development" ]]; then
+    yarn dev
+else
+    yarn start
+fi
